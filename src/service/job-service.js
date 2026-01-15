@@ -1,7 +1,7 @@
 import JobRepository from "../repository/job-repository.js"
 import CustomError from "../helpers/errors/CustomError.js";
 import ApplicationRepository from "../repository/application-repository.js";
-import { REQUIRED_FIELDS_MISSING, RESOURCE_NOT_FOUND } from "./config/server-config.js";
+import { REQUIRED_FIELDS_MISSING, RESOURCE_NOT_FOUND } from "../config/server-config.js";
 
 class JobService {
     constructor(repository = new JobRepository(), appRepo = new ApplicationRepository()) {
