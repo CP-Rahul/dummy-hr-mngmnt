@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 export const PORT = process.env.PORT || 8080;
-export const BASE_URL = process.env.BASE_URL || "/express/api/v1";
+export const BASE_URL = process.env.BASE_URL || "/api/v1";
 export const DATA_EXCEPTION = process.env.DATA_EXCEPTION || "RFL100"
 export const DB_URL = process.env.DB_URL || "mongodb://localhost:27017/dummy"
 export const REQUIRED_FIELDS_MISSING = process.env.REQUIRED_FIELDS_MISSING || "HR100"
